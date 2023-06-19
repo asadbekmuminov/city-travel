@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  outline: 2px dotted aqua;
+  outline-offset: 5px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+}
+a:hover {
+  font-size: 6rem;
+  color: aqua;
+}
+.secton-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/menu-image.jpg);
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  font: 3.5rem;
+  text-align: center;
+}
+
+.secton-london {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/london-iamge.jpg);
+  display: flex;
+  flex-direction: row;
+}
+.secton-rome {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/rome-image.jpg);
+}
+.secton-newyork {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/new-york.jpg);
+}
+.secton-tokio {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/tokio-image.jpg);
+}
+.secton-paris {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/paris-image.jpg);
+}
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+}
+.menu-link {
+  font-size: 3rem;
+  margin-top: 10rem;
+}
+.menu-link:hover {
+  color: yellow;
+  font-size: 4rem;
+}
+p {
+  font-size: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: rgb(37, 36, 36);
+  transition: 1s;
+}
+p:hover {
+  color: #fff;
+}
